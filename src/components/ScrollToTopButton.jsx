@@ -33,7 +33,7 @@ function ScrollToTopButton() {
     // 根据isVisible的狀態來顯示or隐藏按鈕
     isVisible && (
         <button className="scroll-to-top-button" onClick={scrollToTop}>
-            <img src="/images/up-arrow.png" alt="Scroll to Top" />
+            <img src={`${import.meta.env.BASE_URL}images/up-arrow.png`} alt="Scroll to Top" />
         </button>
     )   
   );

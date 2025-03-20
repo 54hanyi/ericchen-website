@@ -1,21 +1,20 @@
 import React from 'react';
-import './styles/Info.css'
-
+import './styles/Info.css';
 
 const iconData = [
-  { img: "/images/icons/html5.png", alt: 'html5' },
-  { img: "/images/icons/css3.png", alt: 'css3' },
-  { img: "/images/icons/sass.png", alt: 'sass' },
-  { img: "/images/icons/tailwind.png", alt: 'tailwind CSS' },
-  { img: "/images/icons/materialUI.png", alt: 'Material UI' },
-  { img: "/images/icons/bootstrap.png", alt: 'bootstrap' },
-  { img: "/images/icons/js.png", alt: 'js' },
-  { img: "/images/icons/ts.png", alt: 'ts' },
-  { img: "/images/icons/react.png", alt: 'react' },
-  { img: "/images/icons/redux.png", alt: 'redux' },
-  { img: "/images/icons/next.png", alt: 'nextjs' },
-  { img: "/images/icons/vite.png", alt: 'vite' },
-  { img: "/images/icons/git.png", alt: 'git' },
+  { img: `${import.meta.env.BASE_URL}images/icons/html5.png`, alt: 'html5' },
+  { img: `${import.meta.env.BASE_URL}images/icons/css3.png`, alt: 'css3' },
+  { img: `${import.meta.env.BASE_URL}images/icons/sass.png`, alt: 'sass' },
+  { img: `${import.meta.env.BASE_URL}images/icons/tailwind.png`, alt: 'tailwind CSS' },
+  { img: `${import.meta.env.BASE_URL}images/icons/materialUI.png`, alt: 'Material UI' },
+  { img: `${import.meta.env.BASE_URL}images/icons/bootstrap.png`, alt: 'bootstrap' },
+  { img: `${import.meta.env.BASE_URL}images/icons/js.png`, alt: 'js' },
+  { img: `${import.meta.env.BASE_URL}images/icons/ts.png`, alt: 'ts' },
+  { img: `${import.meta.env.BASE_URL}images/icons/react.png`, alt: 'react' },
+  { img: `${import.meta.env.BASE_URL}images/icons/redux.png`, alt: 'redux' },
+  { img: `${import.meta.env.BASE_URL}images/icons/next.png`, alt: 'nextjs' },
+  { img: `${import.meta.env.BASE_URL}images/icons/vite.png`, alt: 'vite' },
+  { img: `${import.meta.env.BASE_URL}images/icons/git.png`, alt: 'git' },
 ];
 
 function Info() {
@@ -23,25 +22,21 @@ function Info() {
     <>
       <div className="info-container">
         <div className="info-image">
-          <img src={"/images/Me.png"} alt="ME" />
+          <img src={`${import.meta.env.BASE_URL}images/Me.png`} alt="ME" />
         </div>
         <div className="info">
           <h1>陳翰毅 Eric Chen</h1>
           <p>求職目標：Front-end developer 前端工程師</p>
-          {/* <p>生日：1998/04/01</p>
-          <p>性別：男</p> */}
-          {/* <p>連絡電話：+886 981489362</p> */}
           <p>學歷：靜宜大學 - 觀光事業學系</p>
           <p>相關年資：尚無 (其他工作經驗：2年)</p>
-          {/* <p>通訊地址：台北市內湖區</p> */}
           <p>專業技能：</p>
           <div className="row">
             {iconData.map((link, index) => (
-            <div key={index}>
-              <a href={link.href} target="_blank" rel="noreferrer noopener">
-                <img src={link.img} alt={link.alt} />
-              </a>
-            </div>
+              <div key={index}>
+                <a href={link.href} target="_blank" rel="noreferrer noopener">
+                  <img src={link.img} alt={link.alt} />
+                </a>
+              </div>
             ))}
           </div>
           <p>個性：樂觀開朗、認真負責、熱愛學習、享受挑戰</p>

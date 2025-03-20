@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="cover">
-        <img src="/images/cover.jpg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}images/cover.jpg`} alt="" />
       </div>
       <Info />
     </>

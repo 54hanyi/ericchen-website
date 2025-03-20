@@ -3,12 +3,12 @@ import './styles/Footer.css';
 
 
 const iconData = [
-  { href: 'https://github.com/54hanyi', img: "/images/icons/github.png", alt: 'github' },
-  { href: 'https://line.me/ti/p/BD3x9tgQjQ', img: "/images/icons/line.png", alt: 'line' },
-  { href: 'mailto:tp6c04u4456@gmail.com', img: "/images/icons/mail.png", alt: 'gmail' },
-  { href: 'tel:+886 981489362', img: "/images/icons/tel.png", alt: 'tel' },
-  { href: 'https://www.facebook.com/profile.php?id=100006174253487', img: "/images/icons/facebook.png", alt: 'facebook' },
-  { href: 'https://www.instagram.com/54hanyeeeee/?hl=zh-hk', img: "/images/icons/instagram.png", alt: 'instagram' },
+  { href: 'https://github.com/54hanyi', img: `${import.meta.env.BASE_URL}images/icons/github.png`, alt: 'github' },
+  { href: 'https://line.me/ti/p/BD3x9tgQjQ', img: `${import.meta.env.BASE_URL}images/icons/line.png`, alt: 'line' },
+  { href: 'mailto:tp6c04u4456@gmail.com', img: `${import.meta.env.BASE_URL}images/icons/mail.png`, alt: 'gmail' },
+  { href: 'tel:+886 981489362', img: `${import.meta.env.BASE_URL}images/icons/tel.png`, alt: 'tel' },
+  { href: 'https://www.facebook.com/profile.php?id=100006174253487', img: `${import.meta.env.BASE_URL}images/icons/facebook.png`, alt: 'facebook' },
+  { href: 'https://www.instagram.com/54hanyeeeee/?hl=zh-hk', img: `${import.meta.env.BASE_URL}images/icons/instagram.png`, alt: 'instagram' },
 ];
 
 
