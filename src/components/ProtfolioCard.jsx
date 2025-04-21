@@ -41,16 +41,17 @@ const cardData = [
       img: `${import.meta.env.BASE_URL}images/react-weather-app.jpg`,  
     },
     {
-      title: '旅館訂房網',
-      body: '實現會員登入、房間查詢和即時訂單功能、串接第三方 API，搭配RWD設計，並採用React + TS提升代碼可維護性與開發效率的訂房網頁。',
+      title: '超級抽獎模擬器',
+      body: '使用 Next.js、React、Redux 及 MUI 等技術開發，模擬遊戲內的抽獎機制，包含付費抽獎、免費重抽、抽中獎勵的機率以及抽獎歷史記錄等功能。',
       tech: [
         `${import.meta.env.BASE_URL}images/icons/react.png`,
-        `${import.meta.env.BASE_URL}images/icons/tailwind.png`,
+        `${import.meta.env.BASE_URL}images/icons/redux.png`,
+        `${import.meta.env.BASE_URL}images/icons/next.png`,
+        `${import.meta.env.BASE_URL}images/icons/materialUI.png`,
         `${import.meta.env.BASE_URL}images/icons/ts.png`,
-        `${import.meta.env.BASE_URL}images/icons/vite.png`,
       ],
-      href: 'https://54hanyi.github.io/react-ts-roomorder/',
-      img: `${import.meta.env.BASE_URL}images/react-ts-roomorder.jpg`, 
+      href: 'https://next-ts-redux-lottery-delta.vercel.app/',
+      img: `${import.meta.env.BASE_URL}images/next-ts-redux-lottery.png`,
     },
     {
       title: '放假好去處',
@@ -66,17 +67,16 @@ const cardData = [
       img: `${import.meta.env.BASE_URL}images/next-ts-whereToPlay.png`,
     },
     {
-      title: '超級抽獎模擬器',
-      body: '使用 Next.js、React、Redux 及 MUI 等技術開發，模擬遊戲內的抽獎機制，包含付費抽獎、免費重抽、抽中獎勵的機率以及抽獎歷史記錄等功能。',
+      title: '旅館訂房網',
+      body: '實現會員登入、房間查詢和即時訂單功能、串接第三方 API，搭配RWD設計，並採用React + TS提升代碼可維護性與開發效率的訂房網頁。',
       tech: [
         `${import.meta.env.BASE_URL}images/icons/react.png`,
-        `${import.meta.env.BASE_URL}images/icons/redux.png`,
-        `${import.meta.env.BASE_URL}images/icons/next.png`,
-        `${import.meta.env.BASE_URL}images/icons/materialUI.png`,
+        `${import.meta.env.BASE_URL}images/icons/tailwind.png`,
         `${import.meta.env.BASE_URL}images/icons/ts.png`,
+        `${import.meta.env.BASE_URL}images/icons/vite.png`,
       ],
-      href: 'https://next-ts-redux-lottery-delta.vercel.app/',
-      img: `${import.meta.env.BASE_URL}images/next-ts-redux-lottery.png`,
+      href: 'https://54hanyi.github.io/react-ts-roomorder/',
+      img: `${import.meta.env.BASE_URL}images/react-ts-roomorder.jpg`, 
     },
 ];
 
